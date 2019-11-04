@@ -1,0 +1,664 @@
+.search {
+    background-image: url(../img/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 60px;
+        color: white;
+    }
+
+    &__subtitle {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        color: white;
+        padding-bottom: 40px;
+        letter-spacing: 4px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        width: 500px;
+        border: 1px solid white;
+        min-height: 50px;
+    }
+
+    &__field {
+        border: none;
+        width: 346px;
+        vertical-align: center;
+        padding-left: 50px;
+    }
+
+    &__button {
+        background-color: #5474FD;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Aleo', serif; 
+        width: 150px;
+
+        &--icon {
+            padding-left: 5px;
+        }
+    }
+
+    &__scroll {
+        padding-top: 100px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+
+        &--icon {
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+.menu {
+    background-color: #5474FD;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+    &__logo {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: white;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+        font-family: 'Aleo', serif; 
+    }
+
+    &__button {
+        display: none;
+    }
+
+    &__item {
+        padding-left: 20px;
+    }
+
+    &__item:hover {
+        background-color: white;
+        color: #5474FD;
+    }
+}
+
+.reason {
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 40px 0;
+
+    &__contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    padding-left: 100px;
+    }
+
+    &__title {
+        color: white;
+        font-size: 35px;
+        font-family: 'Aleo', serif; 
+        padding-bottom: 60px;
+    }
+
+    &__text {
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    &__text2 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        padding-bottom: 40px;
+    }
+
+    &__button {
+        background-color: #5474FD;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Aleo', serif; 
+        width: 200px;
+        height: 40px;
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 100px;
+    }
+
+    &__images2 {
+        padding-left: 150px;
+        padding-top: 10px;
+    }
+}
+
+.system {
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 40px;
+
+    &__circle{
+        width: 150px;
+        height: 80px;
+        background-color: transparent;
+        border-top: 1px dashed white;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    &__text {
+        font-family: 'Aleo', serif; 
+        text-transform: initial;
+        color: white;
+    }
+
+    &__search {
+        text-align: center;
+        color: #5474FD;
+    }
+
+    &__select {
+        text-align: center;
+        color: #FF6363;
+    }
+
+    &__book {
+        text-align: center;
+        color: #0793E4;
+    }
+}
+
+.spain1 {
+    background-image: url(../img/img5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+
+    &__contain {
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 150px;
+        width: 500px;
+        padding: 40px 20px;
+    }
+}
+
+.spain2 {
+    background-image: url(../img/img6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+
+    &__contain {
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        position: absolute;
+        top: 200px;
+        right: 150px;
+        width: 500px;
+        padding: 40px 20px;
+    }
+}
+
+.contain {
+    &__country {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    &__text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    &__button {
+        background-color: #5474FD;
+        opacity: 1;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Aleo', serif; 
+        width: 200px;
+        height: 40px;
+    }
+}
+
+.comment {
+    background-image: url(../img/img7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 60px;
+
+    &__title {
+        font-size: 20px;
+        font-family: 'Aleo', serif;
+        padding-bottom: 50px;
+    }
+
+    &__contain {
+        display: flex;
+        flex-direction: row;
+        background-color: #333333;
+        width: 900px;
+    }
+
+    &__review {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+    }
+
+    &__author {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        padding-bottom: 20px;   
+    }
+
+    &__text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        padding-bottom: 20px;   
+    }
+
+    &__qoute {
+        color: #5474FD;
+    }
+}
+
+.footer {
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    &__logo {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 25px;
+        padding-bottom: 5px; 
+    }
+
+    &__text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        padding-bottom: 5px; 
+    }
+
+    &__icon {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        padding: 0;
+    }
+
+    &__item + &__item {
+        padding-left: 15px;
+    }
+
+    &__item:hover {
+        color: #5474FD;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .search {
+        background-image: url(../img/img4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    
+        &__title {
+            padding-top: 50px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 30px;
+            color: white;
+        }
+    
+        &__subtitle {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 15px;
+            color: white;
+            padding-bottom: 20px;
+            letter-spacing: 4px;
+        }
+    
+        &__form {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: white;
+            width: 200px;
+            border: 1px solid white;
+            min-height: 30px;
+        }
+    
+        &__field {
+            border: none;
+            width: 150px;
+            vertical-align: center;
+            padding-left: 10px;
+        }
+    
+        &__button {
+            background-color: #5474FD;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 10px;
+            font-family: 'Aleo', serif; 
+            width: 50px;
+        }
+    
+        &__scroll {
+            padding-top: 20px;
+            color: white;
+            font-family: 'Josefin Sans', sans-serif;
+            letter-spacing: 2px;
+            font-size: 10px;
+            padding-bottom: 5px;
+    
+            &--icon {
+                color: white;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .menu {
+        background-color: #5474FD;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    
+        &__logo {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: white;
+            text-orientation: sideways;
+        }
+    
+        &__list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+            color: white;
+            font-size: 12px;
+            font-family: 'Aleo', serif; 
+        }
+    
+        &__item {
+            margin-bottom: 7px;
+            width: 150px;
+        }
+    
+        &__item:hover {
+            background-color: white;
+            color: #5474FD;
+        }
+    }
+
+    .reason {
+        background-image: url(../img/img3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+
+        &__contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        width: 200px;
+        }
+    
+        &__title {
+            color: white;
+            font-size: 20px;
+            font-family: 'Aleo', serif; 
+            padding-bottom: 5px;
+        }
+    
+        &__text {
+            font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            font-size: 12px;
+            padding-bottom: 5px;
+        }
+    
+        &__text2 {
+            font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            font-size: 12px;
+            padding-bottom: 10px;
+        }
+    
+        &__button {
+            background-color: #5474FD;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 10px;
+            font-family: 'Aleo', serif; 
+            width: 100px;
+            height: 20px;
+        }
+    
+        &__images {
+            display: none;        
+        }
+    
+        &__images2 {
+            display: none;
+        }
+    }
+
+    .system {
+        background-color: #333333;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding: 10px;
+    
+        &__circle{
+            width: 50px;
+            height: 30px;
+            background-color: transparent;
+            border-top: 1px dashed white;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+        }
+    }    
+
+    .spain1, .spain2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        width: 100%;
+    
+        &__contain {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            width: 50%;
+            position: static;
+        }
+    }   
+    
+    .contain {
+        &__country {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 12px;
+            padding-bottom: 5px;
+        }
+        &__title {
+            text-transform: uppercase;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 15px;
+            padding-bottom: 5px;
+        }
+        &__text {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 12px;
+            padding-bottom: 5px;
+        }
+        &__button {
+            background-color: #5474FD;
+            opacity: 1;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-family: 'Aleo', serif; 
+            width: 100px;
+            height: 20px;
+        }
+    }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        height: 60vh;
+        width: 100%;
+    
+        &__title {
+            font-size: 20px;
+            font-family: 'Aleo', serif;
+            padding-bottom: 50px;
+        }
+    
+        &__contain {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #333333;
+            width: 80%;
+        }
+
+        &__photo {
+            display: none;
+        }
+    
+        &__review {
+            width: 90%;
+            text-align: center;
+            margin: 0 10px;
+        }
+    
+        &__author {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            padding-bottom: 20px;   
+        }
+    
+        &__text {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            padding-bottom: 20px;   
+        }
+    
+        &__qoute {
+            color: #5474FD;
+        }
+    }
+}
